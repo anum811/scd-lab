@@ -1,0 +1,16 @@
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+void signup() {
+    string username, password;
+
+    cout << "Create username: ";
+    cin >> username;
+
+    cout << "Create password: ";
+    cin >> password;
+
+    cout << "Account created successfully!" << endl;
+}
